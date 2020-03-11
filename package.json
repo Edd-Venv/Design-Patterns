@@ -1,0 +1,23 @@
+{
+  "name": "js-design-patterns",
+  "version": "1.0.0",
+  "description": "",
+  "main": "html.html",
+  "dependencies": {
+    "jest": "^24.9.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Edd-Venv/Design-Patterns.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Edd-Venv/Design-Patterns/issues"
+  },
+  "homepage": "https://github.com/Edd-Venv/Design-Patterns#readme"
+}

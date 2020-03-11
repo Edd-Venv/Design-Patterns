@@ -12,5 +12,4 @@ class FancyLogger {
     console.log(`${this.logs.length} Logs`);
   }
 }
-
-export default FancyLogger;
+exports.exportedClass = FancyLogger;
