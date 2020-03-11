@@ -1,6 +1,6 @@
-const file = require("./fancyLogger.js");
-const fancyLogger = file.exportedClass;
-
+import FancyLogger from "./fancyLogger";
+console.log("connected");
+console.log(FancyLogger);
 /* 
 UseFul When You Want To Create A Single Object That Is Shared Amongest Different Resouces.
 CONS 
@@ -12,3 +12,9 @@ CONS
 When To Be Used
 1) When You Have Small Sets Of Info That Needs To Shared Through Out The Whole Application.
 */
+describe("REQUIRE", () => {
+  it("Should Import The FancyLogger Class", () => {
+    const test = new fancyLogger();
+    expect(test).toEqual({ logs: [] });
+  });
+});
