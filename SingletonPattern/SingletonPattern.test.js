@@ -12,11 +12,12 @@ When To Be Used
 
 const firstFile = require("./FirstUse");
 const secondFile = require("./SecondUse");
-const logFirstImplementation = firstFile.exportedClass;
-const logSecondImplementation = secondFile.exportedClass;
+const logFirstImplementation = firstFile.exportedFunction;
+const logSecondImplementation = secondFile.exportedFunction;
 
 const test = new logFirstImplementation();
-console.log(test);
+const test2 = new logSecondImplementation();
+console.log(test, test2);
 /*describe("REQUIRE", () => {
   it("Should Import The FancyLogger Class", () => {
     const test = new FancyLogger();

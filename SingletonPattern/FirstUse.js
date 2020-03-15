@@ -1,5 +1,9 @@
 const file = require("./fancyLogger");
-const FancyLogger = file.exportedClass;
+const logger = file.exportedClass;
 
-class logFirstImplementation {}
-exports.exportedClass = logFirstImplementation;
+function logFirstImplementation() {
+  logger.printLogCount();
+  logger.log("First file");
+  logger.printLogCount();
+}
+exports.exportedFunction = logFirstImplementation;
