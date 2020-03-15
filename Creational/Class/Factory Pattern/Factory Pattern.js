@@ -17,7 +17,7 @@ function Tester(name) {
   this.name = name;
   this.type = "Tester";
 }
-
+//creating the Factory
 function EmployeeFactory() {
   this.create = (name, type) => {
     switch (type) {
@@ -67,11 +67,11 @@ class BallFactory {
 class Football {
   constructor() {
     this._type = "football";
-    this.kick = function() {
-      return "You kicked the football.";
-    };
   }
 }
+Football.prototype.kick = () => {
+  return "You kicked the football.";
+};
 
 class Basketball {
   constructor() {
