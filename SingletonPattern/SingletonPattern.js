@@ -15,9 +15,9 @@ const secondFile = require("./SecondUse");
 const logFirstImplementation = firstFile.exportedFunction;
 const logSecondImplementation = secondFile.exportedFunction;
 
-const test = new logFirstImplementation();
-const test2 = new logSecondImplementation();
-console.log(test, test2);
+new logFirstImplementation();
+new logSecondImplementation();
+
 /*describe("REQUIRE", () => {
   it("Should Import The FancyLogger Class", () => {
     const test = new FancyLogger();
