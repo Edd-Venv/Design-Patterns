@@ -8,6 +8,7 @@ CONS
 
 When To Be Used
 1) When You Have Small Sets Of Info That Needs To Shared Through Out The Whole Application.
+2) A database connection would probably be a better reference.
 */
 
 const firstFile = require("./FirstUse");
